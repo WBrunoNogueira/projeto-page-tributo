@@ -52,8 +52,16 @@ header .container .image_title img{
 
 /*section*/
 
-section  .container .desc {
+section  .container  {
     display: flex;
     justify-content: center;
     background-color: aquamarine;
+    
+    
+}
+section  .container .desc{
+ 
+}
+section  .container .banner{
+
 }
