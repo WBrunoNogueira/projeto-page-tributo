@@ -56,9 +56,10 @@ header .container .image_title img{
 
 section  .container  {
     display: flex;
-<<<<<<< HEAD
+
     justify-content: center;
-    background-color: aquamarine;
+    background-color: rgb(234, 249, 175);
+    padding-top: 30px;
 }
 
 footer{
@@ -67,33 +68,34 @@ footer{
     flex-direction: column;
 
 }
-=======
-    justify-content: center;    
-}
 
 section  .container .banner{
+    height: 300px;
+    
    
 }
 section  .desc {
     display: flex;
-   justify-content: center;
-   align-items: center;
+   justify-content: baseline;
+   align-items: baseline;
    margin-right: 10px;
+   
 }
 section  .container .banner img{
     width: 250px;
+  
     border-radius: 100%;
 }
 
 footer{
-    display: flex;   
+    display: flex;
+    justify-content: center;
     background-color: gold;
-    
+    height: 100px;
 }
 
-footer .footer-link{
+.footer-item {  
+    display: flex;
+    justify-content: center;
 
-   
 }
-
->>>>>>> f911942685fc5876e71a707d35c4302271565f4c
