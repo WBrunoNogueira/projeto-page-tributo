@@ -11,10 +11,11 @@ header{
     height: auto;
 
 
+
 }
 
 header .container{
-    width: 990px;
+    
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -53,8 +54,9 @@ header .container .image_title img{
 
 /*section*/
 
-section  .container .desc {
+section  .container  {
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     background-color: aquamarine;
 }
@@ -65,3 +67,33 @@ footer{
     flex-direction: column;
 
 }
+=======
+    justify-content: center;    
+}
+
+section  .container .banner{
+   
+}
+section  .desc {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+}
+section  .container .banner img{
+    width: 250px;
+    border-radius: 100%;
+}
+
+footer{
+    display: flex;   
+    background-color: gold;
+    
+}
+
+footer .footer-link{
+
+   
+}
+
+>>>>>>> f911942685fc5876e71a707d35c4302271565f4c
